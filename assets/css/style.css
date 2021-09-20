@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   top: 0;
   background: rgb(255, 255, 255);
-  border-bottom: 1px solid #37332a;
+  border-bottom: 1px solid #203617;
 }
 
 #header.header-scrolled .navbar a { 
@@ -186,6 +186,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .header-scrolled .yill{
   color: #1b1b1b;
+}
+
+#header .header-scrolled .logo img{
+  max-width: 100px !important;
+
 }
 
 #header .logo {
@@ -206,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-width: 150px;
+  max-width: 130px;
 }
 
 /*--------------------------------------------------------------
@@ -272,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar li {
   position: relative;
+  text-transform: uppercase;
 }
 
 .navbar a {
@@ -284,7 +290,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   font-weight: bolder;
-  text-transform: uppercase;
 }
 
 .navbar a i {
@@ -304,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
+  
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -315,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+  text-transform: capitalize;
 }
 
 .navbar .dropdown ul a {
