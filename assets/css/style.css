@@ -165,11 +165,11 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: none;
+  background: #ffffff;
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.6); */
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 2px 0;
   top: 40px;
 }
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header .logo {
-  background: #ffffff;
+  /* background: #ffffff; */
   font-size: 32px;
   margin: 0;
   padding: 5px;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-width: 130px;
+  max-width: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 .book-a-table-btn {
   margin: 0 0 0 15px;
   border: 2px solid  #27c234;
-  color: #fff;
+  color: #1b1b1b;
   border-radius: 50px;
   padding: 8px 25px;
   text-transform: uppercase;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 20px;
-  color: #fff;
+  color: #1b1b1b;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 15px;
