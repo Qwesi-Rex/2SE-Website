@@ -193,6 +193,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
+
 #header .logo {
   font-size: 32px;
   margin: 0;
@@ -369,13 +371,19 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(140, 248, 149);
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
 }
+
+#header .header-scrolled .mobile-nav-toggle {
+  
+ 
+}
+
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -1934,7 +1942,20 @@ SERVICES
   font-size: 12px;
 }
 
+/* 
+ABOUT
+--------------------------- */
+.about h1 {
+  font-size: 24px;
+}
 
+.about h2 {
+  font-size: 20px;
+}
+
+.about p {
+  font-size: 14px;
+}
 
 
 
