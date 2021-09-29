@@ -249,8 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-.book-a-table-btn:hover {
+.book-a-table-btn:hover, .active-c {
   background:  #27c234;
   color: #fff !important;
 }
@@ -490,10 +489,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero2 {
   width: 100%;
-  height: 80vh;
-  background: url("../img/angelinvestors.jpg") top center;
+  height: 90vh;
+  background: url("../img/angelinvestors-1.jpeg") center;
   background-size: cover;
   position: relative;
+  
   padding: 0;
 }
 
@@ -501,6 +501,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 90vh;
   background: url("../img/Women-In-Africa.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#hero4 {
+  width: 100%;
+  height: 90vh;
+  background: url("../img/progress.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -526,7 +535,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero3:before {
+#hero3:before, #hero4::before {
   content: "";
   background: rgba(0, 0, 0, 0.609);
   position: absolute;
@@ -560,6 +569,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 5px 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#hero2 h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 5px 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#hero4 h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
@@ -965,8 +992,13 @@ section {
   overflow: hidden;
 }
 
+#loanday {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
 .section-bg {
-  background-color: #1a1814;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -975,7 +1007,7 @@ section {
 
 .section-title h2 {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 100;
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
@@ -999,7 +1031,6 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
   color: #27c234;
 }
 
@@ -1636,9 +1667,214 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+
+
+
+/*--------------------------------------------------------------
+# Loanday
+--------------------------------------------------------------*/
+
+.loanday {
+  background-color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  color: #2e2e2e;
+ }
+ 
+ #loanbox{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.116), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+  padding: 50px 8px;
+ }
+
+ #loanbox p{
+  font-weight: 100px;
+  justify-content: center;
+  
+  
+
+ }
+
+ .dash{
+   width: 90%;
+  border-bottom: 1px solid #9e9e9e;
+  border-bottom-style: dashed;
+ }
+ 
+ .loanday .php-email-form {
+   width: 100%;
+   padding-top: 20px;
+   
+ }
+
+ .loanday .php-email-form label{
+  
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #2e2e2e;
+  cursor: text;
+  padding: 0px 5px;
+  text-transform: capitalize;
+
+ }
+ 
+ .loanday .php-email-form .form-group {
+   padding-bottom: 2px;
+   text-align: left !important;
+ }
+
+ .loanday .php-email-form .form-group .form-control {
+ 
+
+}
+ 
+ .loanday .php-email-form .validate {
+   display: none;
+   color: red;
+   margin: 0 0 15px 0;
+   font-weight: 400;
+   font-size: 13px;
+ }
+ 
+ .loanday .php-email-form .error-message {
+   display: none;
+   color: #fff;
+   background: #ed3c0d;
+   text-align: center;
+   padding: 15px;
+   font-weight: 600;
+ }
+ 
+ .loanday .php-email-form .sent-message {
+   display: none;
+   color: #fff;
+   background: #18d26e;
+   text-align: center;
+   padding: 15px;
+   font-weight: 600;
+ }
+ 
+ .loanday .php-email-form .loading {
+   display: none;
+   text-align: center;
+   padding: 15px;
+ }
+ 
+ .loanday .php-email-form .loading:before {
+   content: "";
+   display: inline-block;
+   border-radius: 50%;
+   width: 24px;
+   height: 24px;
+   margin: 0 10px -6px 0;
+   border: 3px solid #27c234;
+   border-top-color: #1a1814;
+   -webkit-animation: animate-loading 1s linear infinite;
+   animation: animate-loading 1s linear infinite;
+ }
+ 
+ .loanday .php-email-form input, .loanday .php-email-form textarea {
+   border-radius: 0px;
+   box-shadow: none;
+   font-size: 14px;
+   font-weight: 200;
+   background: #000e03;
+   border-color: #625b4b;
+   color: white;
+ }
+
+
+ .loanday .php-email-form input, .loanday .php-email-form textarea, .loanday .php-email-form select {
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: lighter;
+  background: #ffffff;
+  border-color: #b8b8b8;
+  border-radius: 5px;
+  color: #bab3a6;
+  padding: 10px !important;
+}
+
+.loanday .php-email-form input:focus, .loanday .php-email-form textarea:focus, .loanday .php-email-form select:focus {
+  border-color:  #27c234;
+}
+
+.loanday .php-email-form input, .loanday .php-email-form select {
+  height: 44px;
+}
+
+
+ 
+ .loanday .php-email-form input::-webkit-input-placeholder, .loanday .php-email-form textarea::-webkit-input-placeholder {
+   color: #a49b89;
+ }
+ 
+ .loanday .php-email-form input::-moz-placeholder, .loanday .php-email-form textarea::-moz-placeholder {
+   color: #a49b89;
+ }
+ 
+ .loanday .php-email-form input::placeholder, .loanday .php-email-form textarea::placeholder {
+   color: #a49b89;
+ }
+ 
+ .loanday .php-email-form input:focus, .loanday .php-email-form textarea:focus {
+   border-color: #27c234;
+ }
+ 
+ .loanday .php-email-form input {
+   height: 44px;
+ }
+ 
+ .loanday .php-email-form textarea {
+   padding: 10px 12px;
+ }
+ 
+ .loanday .php-email-form button[type="submit"] {
+   background: #27c234;
+   border: 0;
+   padding: 10px 35px;
+   color: #fff;
+   transition: 0.4s;
+   border-radius: 50px;
+ }
+ 
+ .loanday .php-email-form button[type="submit"]:hover {
+   background:  #096811;
+ }
+ 
+ @-webkit-keyframes animate-loading {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+ 
+ @keyframes animate-loading {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+ 
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+ background-color: #000e03;
+ font-family: 'Ubuntu', sans-serif;
+}
+
 .contact .info {
   width: 100%;
 }
@@ -1732,7 +1968,8 @@ section {
   border-radius: 25px;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  font-weight: 200;
+  background: #000e03;
   border-color: #625b4b;
   color: white;
 }
@@ -1805,7 +2042,7 @@ section {
 
 #footer .footer-top {
   background: #000e03;
-  border-top: 1px solid #37332a;
+  /* border-top: 1px solid #37332a; */
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
   font-family: 'Ubuntu', sans-serif;
@@ -1955,6 +2192,18 @@ section {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 425px){
+
+  /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #ffffff;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.6); */
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 8px 0;
+  top: 40px;
+}
 
   #header .logo {
     font-size: 20px;
