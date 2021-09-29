@@ -1675,21 +1675,25 @@ section {
 --------------------------------------------------------------*/
 
 .loanday {
-  background-color: #ffffff;
+  background-color: #001805b4;
   font-family: 'Ubuntu', sans-serif;
   color: #2e2e2e;
  }
  
  #loanbox{
+   background: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.116), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
   padding: 50px 8px;
+ }
+
+ #loanbox h2{
+ color: #001805ec;
+
  }
 
  #loanbox p{
   font-weight: 100px;
   justify-content: center;
-  
-  
 
  }
 
