@@ -127,16 +127,16 @@
       
                 <div class="col-lg-8 mt-5 mt-lg-0">
       
-                  <form action="forms/Loanday.php" method="post" role="form" class="php-email-form">
+                  <form action="forms/loanday.php" method="post" role="form" class="php-email-form">
 
                     <div class="row">
                         <div class="col-md-6 form-group">
                           <label for="name" class="label">First Name</label>
-                          <input type="text" name="location" class="form-control" id="location" required>
+                          <input type="text" name="name" class="form-control" id="firstname" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
                             <label for="name" class="label">Surname</label>
-                          <input type="name" class="form-control" name="surname" id="citizenship" required>
+                          <input type="name" class="form-control" name="name" id="surname" required>
                         </div>
                       </div>
 
@@ -155,7 +155,7 @@
                     <div class="row">
                       <div class="col-md-12 form-group">
                         <label for="name" class="label">Location</label>
-                        <input type="text" name="location" class="form-control" id="location" placeholder="Should be within Accra, Including Kasoa, prampram, dodowa, nsawam" required>
+                        <input type="text" name="location " class="form-control" id="location" placeholder="Should be within Accra, Including Kasoa, prampram, dodowa, nsawam" required>
                       </div>
 
                       <div class="col-md-12 form-group mt-3 mt-md-0">
@@ -165,7 +165,7 @@
 
                       <div class="col-md-12 form-group mt-3 mt-md-0">
                           <label for="name" class="label">Valid National </label>
-                        <input type="text" class="form-control" name="citizenship" id="citizenship" placeholder=############## required>
+                        <input type="text" class="form-control" name="valid-id" id="valid-id" placeholder=############## required>
                       </div>
                     </div>
 
@@ -183,7 +183,7 @@
                       <div class="row">
                           <div class="col-md-6 form-group">
                             <label for="name" class="label">Net Income</label>
-                            <input type="text" name="net-income" class="form-control" id="net-income" placeholder="Shouldn’t be less than 40% of total income" required>
+                            <input type="text" name="netincome" class="form-control" id="netincome" placeholder="Shouldn’t be less than 40% of total income" required>
                           </div>
                           <div class="col-md-6 form-group mt-3 mt-md-0">
                               <label for="name" class="label">Age</label>
@@ -194,11 +194,11 @@
                         <div class="row">
                             <div class="col-md-6 form-group">
                               <label for="name" class="label">Desired loan amount</label>
-                              <input type="text" name="net-income" class="form-control" id="net-income" placeholder="500 – 5000 cedis" required>
+                              <input type="text" name="loan" class="form-control" id="loan" placeholder="500 Cedis" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
                                 <label for="name" class="label">Duration needed to repay the loan</label>
-                              <input type="text" class="form-control" name="age" id="age" placeholder="1-3 months" required>
+                              <input type="text" class="form-control" name="loanduration" id="loanduration" placeholder="1-3 months" required>
                             </div>
                           </div>
 
@@ -253,8 +253,8 @@
 
                     <div class="my-3">
                       <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                      <!-- <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div> -->
                     </div>
 
                     <div class="text-center"><button type="submit">SUBMIT</button></div>

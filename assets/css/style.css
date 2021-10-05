@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -611,6 +611,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   color: white;
   border: 2px solid #27c234;
+}
+
+
+#hero .btn-book {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  background: #01a30e;
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
@@ -625,7 +640,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#5ecd7a 50%, rgba(111, 205, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -664,7 +679,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(205, 164, 94, 0.7);
+  border: 5px solid rgba(6, 211, 16, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -993,7 +1008,7 @@ section {
 }
 
 #loanday {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -1452,15 +1467,15 @@ section {
 }
 
 .book-a-table .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
-  color: #a49b89;
+  color: #2c2c2c;
 }
 
 .book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
-  color: #a49b89;
+  color: #2c2c2c;
 }
 
 .book-a-table .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
-  color: #a49b89;
+  color: #2c2c2c;
 }
 
 .book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
@@ -1682,7 +1697,7 @@ section {
  
  #loanbox{
    background: #ffffff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.116), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
   padding: 50px 8px;
  }
 
@@ -1805,12 +1820,16 @@ section {
 
 .loanday .php-email-form input, .loanday .php-email-form select {
   height: 44px;
+  color: #424242 !important;
+
 }
+
+
 
 
  
  .loanday .php-email-form input::-webkit-input-placeholder, .loanday .php-email-form textarea::-webkit-input-placeholder {
-   color: #a49b89;
+   color: #1b1b1b;
  }
  
  .loanday .php-email-form input::-moz-placeholder, .loanday .php-email-form textarea::-moz-placeholder {
