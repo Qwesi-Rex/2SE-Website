@@ -26,7 +26,7 @@ if (empty($_POST["validid"])) {
 
 
 // Receiving Email
-$EmailTo = " info@crownedeaglegh.com";
+$EmailTo = " rexcalidaddesigns@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
